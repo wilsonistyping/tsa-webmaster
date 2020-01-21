@@ -34,3 +34,12 @@ Create a fictional electric vehicle manufacturing company and design a website. 
 - Create 2 - 3 vehicles in production and being sold
 - Create vehicle designs, specs, 
 - Explore and develop a company brand, provide some message or mission statement
+
+
+-----------------------------
+
+### Navbar:
+
+- CTE Program
+- Middleton TSA
+- Design Brief
