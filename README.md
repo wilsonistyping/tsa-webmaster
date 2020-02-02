@@ -43,3 +43,5 @@ Create a fictional electric vehicle manufacturing company and design a website. 
 - CTE Program
 - Middleton TSA
 - Design Brief
+- About
+*** The [About] page MUST include that we used MaterializeCSS.
