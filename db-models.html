@@ -9,7 +9,7 @@
   <title> Model S: Salvage - Middleton TSA </title>
   <style>
       .background {
-      background-image: url("images/placeholder-electric-vehicle.jpg");
+      background-image: url("images/pixabay-esa-models.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -35,10 +35,10 @@
       <ul class="left hide-on-med-and-down">
         <li><a href="index.html" class="waves-effect">Return Home</a></li>
       </ul>
-      <!-- <a id="logo-container" href="index.html" class="brand-logo center"><img class="responsive-img" src="images/mhs-logo.gif" width="150" height="auto"></a> -->
+      <a id="logo-container" href="designbrief.html" class="brand-logo center"><img class="responsive-img" src="images/esa-parody-emblem.png" width="100" height="auto"></a>
       <ul class="right hide-on-med-and-down">
         <li><a class="dropdown-trigger waves-effect" href="#!" data-target="dropdown1">Our Vehicles<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a href="db-news.html" class="waves-effect">News</a></li>
+
         <li><a href="db-contact.html" class="waves-effect">Contact Us</a></li>
       </ul>
       <!-- Mobile View -->
@@ -50,7 +50,6 @@
         <li class="grey lighten-4"><a href="db-models.html">Model S - Salvage</a></li>
         <li class="grey lighten-4"><a href="db-modela.html">Model A - Adapt</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="db-news.html" class="waves-effect">News</a></li>
         <li><a href="db-contact.html" class="waves-effect">Contact Us</a></li>
       </ul>
       
@@ -60,12 +59,93 @@
   
   <!-- Main Splash -->
   <div class="background">
-    <br><br><br><br>
-    <h2 class="header center"><img src="images/TSA-Emblem-FULLSIZE.png" width="450" height="auto"> </h2>
   </div>
 
-  <!-- Content Container -->
-  <div class="container"> 
+  <!-- Content -->
+  <div class="container center-align">
+    <br><br><br><br>
+
+    <div class="row valign-wrapper">
+      <div class="col s12 m6">
+        <div class="card medium hoverable orange lighten-4">
+
+          <div class="container section">
+            <h3><strong>The ESA Empower</strong></h3>
+            <br>
+            
+            <p class="flow-text">Elegant. Extreme. Eco-friendly.</p>
+            <p class="flow-text">Never before has eco-friendly been so powerful.</p>
+
+          </div>
+  
+        </div>
+      </div>
+          
+      <div class="col s12 m6">
+        <div class="card medium hoverable orange lighten-3">
+        
+          <div class="container section">
+            <h3><strong>Starting Price</strong></h3>
+            <br>
+            <h4 class="flow-text">Our High End Model</h4>
+            <h4 class="flow-text">Starting at mid-$70,000s</h4>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <br><br><br><br>
+    <table>
+      <tr>
+        <th>MSRP</th>
+        <td>$74,999 - $104,999</td>
+      </tr>
+      <tr>
+        <th>Transmission</th>
+        <td>Four direct drive gearboxes</td>
+      </tr>
+      <tr>
+        <th>Horsepower</th>
+        <td>1000 hp</td>
+      </tr>
+      <tr>
+        <th>Top Speed</th>
+        <td>220 mph</td>
+      </tr>
+      <tr>
+        <th>Battery Energy</th>
+        <td>90 kWh</td>
+      </tr>
+      <tr>
+        <th>Battery Voltage</th>
+        <td>450V</td>
+      </tr>
+      <tr>
+        <th>Estimated Charge Time</th>
+        <td>1:12 hrs</td>
+      </tr>
+    </table>
+  </div>
+
+  <hr><hr>
+  <h1 class="center-align"><strong>EXPLORE OTHER MODELS</strong></h1>
+  <hr>
+
+
+  <!-- Link to Model S -->
+  <div id="index-banner" class="parallax-container">
+    <div style="padding-top:10%" class="center">
+      <a href="db-modele.html" class="btn-large waves-effect waves-light deep-orange">Empower</a>
+    </div>
+    <div class="parallax"><img src="images/pixabay-esa-modele.jpg" alt="TSA Webmaster 2020 Design Brief - picture of an electric vehicle"></div>
+  </div>
+
+  <!-- Link to Model A -->
+  <div id="index-banner" class="parallax-container">
+    <div style="padding-top:10%" class="center">
+      <a href="db-modela.html" class="btn-large waves-effect waves-light amber">Adapt</a>
+    </div>
+    <div class="parallax"><img src="images/pixabay-esa-modela.jpg" alt="TSA Webmaster 2020 Design Brief - picture of an electric vehicle"></div>
   </div>
 
 <!-- Footer -->
@@ -73,8 +153,8 @@
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5 class="black-text">ESA</h5>
-        <p class="grey-text text-darken-4">Insert blurb about Middleton TSA.</p>
+        <h5 class="black-text">Disclaimers</h5>
+        <p class="grey-text text-darken-4">ESA is not a real electric vehicle company. Its logo is derived as a parody of the TSA logo. Images used in this design brief were retrieved from <a href="https://pixabay.com/">Pixabay</a> with sources attributed to each image as a caption.</p>
 
 
       </div>
@@ -89,7 +169,6 @@
       <div class="col l3 s6">
         <h5 class="black-text">Other Resources</h5>
         <ul>
-          <li><a href="db-news.html">News</a></li>
           <li><a href="db-contact.html">Contact Us</a></li>
           <li><a href="index.html">Return Home</a></li>
         </ul>
@@ -110,11 +189,6 @@
   // Below script initializes sidenav functionality
   $(document).ready(function(){
     $(".sidenav").sidenav();
-  });
-
-  // Material box functionality
-  $(document).ready(function(){
-    $('.materialboxed').materialbox();
   });
   </script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
