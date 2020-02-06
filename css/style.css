@@ -83,3 +83,6 @@ background: rgba(200, 200, 200, 0.7);
 nav ul li.active {
   background-color: rgba(255, 255, 255, 0.1);
 }
+.card.larger {
+  height: 700px;
+}
